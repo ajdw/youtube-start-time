@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav--icon {
+  width: 100px;
+  flex: auto;
+}
+
+
+.input-url {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 110%;
+
+}
+
+.input-time {
+  width: 12%;
+  padding: 12px 20px;
+  margin: 8px 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 110%;
+}
+
+button, #get-button {
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#get-button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: black;
+}
+
+#copy-button {
+  background-color: blue;
+  color: white;
+
+}
+
+#preview-button {
+
+}
